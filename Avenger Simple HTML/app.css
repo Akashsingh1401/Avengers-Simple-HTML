@@ -1,0 +1,83 @@
+/* body{
+    background-color: #90e0ef;
+} */
+
+#mainNavbar .navbar-brand{
+    color: #d90429;
+    font-family: 'Mate SC', serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#mainNavbar .nav-link{
+    color: #0466c8;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+#heading{
+    background: url("imgs/55568.jpg");
+}
+
+#header h1{
+    font-family: 'Mate SC', serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px #b1282d;
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    color: #812c18;
+}
+
+h3{
+    border-bottom: 2px solid black;
+    text-shadow: 2px 2px 2px red;
+
+}
+
+#background p{
+    color: #1b2024;
+    font-weight: 400;
+}
+
+span{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+#icon{
+    width: 45px;
+    height: 45px;
+}
+
+ #background{
+    /* background-image: url("imgs/jumbo-3.jpg");
+    background-repeat: repeat-x;
+    background-position: left bottom; */
+    background-color: #f8f2da;
+
+}
+
+footer{
+    background-color:#212529;
+}
+
+
+#footerlinks2 .nav-link{
+        color: #0466c8;
+    }
+
+#mainNavbar #pagelogo:hover{
+    color: aliceblue;
+    box-shadow: 0 0.5em 0.5em -0.5em red;
+}    
+
+@media (max-width:517px){
+    span{
+        color: #b1282d;
+    }
+}
